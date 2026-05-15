@@ -1,6 +1,6 @@
 # Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation
 
-<!-- [![Paper](https://img.shields.io/badge/Paper-ACL%202026-blue)]()  -->
+[![Paper](https://img.shields.io/badge/Paper-ACL%202026-blue)](https://arxiv.org/abs/2605.14380) 
 [![Code](https://img.shields.io/badge/Code-GitHub-black?logo=github)](https://github.com/htdgv/CASA-PDC)
 
 > Accepted at **BioNLP @ ACL 2026** — PsyDefDetect Shared Task
@@ -14,7 +14,7 @@
 - [Data](#data)
 - [Training](#training)
 - [Contact](#contact)
-<!-- - [Citation](#citation) -->
+- [Citation](#citation)
 
 ---
 
@@ -106,17 +106,20 @@ For questions or issues, please contact:
 - **Hoang-Thuy-Duong Vu** — [26duong.vht@vinuni.edu.vn](mailto:26duong.vht@vinuni.edu.vn)
 - **Dr. Huy-Hieu Pham** - [hieu.ph@vinuni.edu.vn](mailto:hieu.ph@vinuni.edu.vn)
 
-<!-- ---
+---
 
 ## Citation
 
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{yourname2026casapdc,
-  title     = {Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation},
-  author    = {Your Name and Co-authors},
-  booktitle = {Proceedings of the BioNLP Workshop at ACL 2026},
-  year      = {2026}
+@misc{vu2026mitigatingdatascarcitypsychological,
+      title={Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation}, 
+      author={Hoang-Thuy-Duong Vu and Quoc-Cuong Pham and Huy-Hieu Pham},
+      year={2026},
+      eprint={2605.14380},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.14380}, 
 }
-``` -->
+```
