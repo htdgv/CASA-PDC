@@ -102,9 +102,7 @@ For hyperparameter details and evaluation metrics, refer to `script/run.sh` and 
 
 ---
 ## Contact
-For questions or issues, please contact: 
-- **Hoang-Thuy-Duong Vu** — [26duong.vht@vinuni.edu.vn](mailto:26duong.vht@vinuni.edu.vn)
-- **Dr. Huy-Hieu Pham** - [hieu.ph@vinuni.edu.vn](mailto:hieu.ph@vinuni.edu.vn)
+For questions or issues, please contact: **Hoang-Thuy-Duong Vu** — [26duong.vht@vinuni.edu.vn](mailto:26duong.vht@vinuni.edu.vn)
 
 ---
 
