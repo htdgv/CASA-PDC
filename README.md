@@ -1,4 +1,4 @@
-# Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation
+# VISHC at PsyDefDetect: Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation
 
 [![Paper](https://img.shields.io/badge/Paper-ACL%202026-blue)](https://arxiv.org/abs/2605.14380) 
 [![Code](https://img.shields.io/badge/Code-GitHub-black?logo=github)](https://github.com/htdgv/CASA-PDC)
@@ -111,13 +111,22 @@ For questions or issues, please contact: **Hoang-Thuy-Duong Vu** — [26duong.vh
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@misc{vu2026mitigatingdatascarcitypsychological,
-      title={Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation}, 
-      author={Hoang-Thuy-Duong Vu and Quoc-Cuong Pham and Huy-Hieu Pham},
-      year={2026},
-      eprint={2605.14380},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2605.14380}, 
+@inproceedings{vu-etal-2026-vishc,
+    title = "{VISHC} at {P}sy{D}ef{D}etect: Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation",
+    author = "Vu, Hoang-Thuy-Duong  and
+      Pham, Quoc-Cuong  and
+      Pham, Huy-Hieu",
+    editor = "Gupta, Deepak  and
+      Demner-Fushman, Dina",
+    booktitle = "Proceedings of the {B}io{NLP} 2026 (Shared Tasks)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.bionlp-2.12/",
+    doi = "10.18653/v1/2026.bionlp-2.12",
+    pages = "77--86",
+    ISBN = "979-8-89176-435-4",
+    abstract = "Psychological defense mechanisms (PDMs) are unconscious cognitive processes that modulate how individuals perceive and respond to emotional distress. Automatically classifying PDMs from text is clinically valuable but severely hindered by data scarcity and class imbalance, challenges which generative augmentation alone cannot resolve without psychological grounding. In this work, we address these challenges in the PsyDefDetect shared task (BioNLP@ACL 2026) by proposing a context-aware synthetic augmentation framework combined with a hybrid classification model. Our hybrid model integrates contextual language representations with basic clinical features, along with 150 annotated defense items. Experiments demonstrate that definition quality in prompting directly governs generation fidelity and downstream performance. Our method surpasses DMRS Co-Pilot, reaching an accuracy of 58.26{\%} (+40.25{\%}) and a macro-F1 of 24.62{\%} (+15.99{\%}), thereby establishing a strong baseline for psychologically grounded defense mechanism classification in low-resource settings. Source code is available at: \url{https://github.com/htdgv/CASA-PDC}."
 }
 ```
